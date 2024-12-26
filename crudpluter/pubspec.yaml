@@ -1,0 +1,30 @@
+name: fluttercrud
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.8.0
+  http: ^1.2.2
+  data_table_2: ^2.5.15
+  shared_preferences: ^2.0.18
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true   # Pastikan baris ini ada untuk mengaktifkan Material Icons
+  
+  assets:
+    - assets/icons/           # Contoh jika Anda menggunakan ikon khusus dalam folder assets
